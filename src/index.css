@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --colorBlack: #000;
+  --colorWhite: #fff;
+  --colorRed: rgba(229, 9, 20, 0.4);
+  --colorGray: rgba(90, 90, 90);
+  --colorBlue: #010041;
+  --colorYellow: #E6AF1A;
+  --colorOffWhite: #e8eaed;
+  --background: #355;
+}
+
+* {
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+  word-spacing: 3px;
+}
+
+body {
+  background: #e8eaed;
+}
+
+button {
+  border: none !important;
+}

@@ -1,0 +1,23 @@
+.slider-ui {
+  width: 9rem;
+  background: var(--colorwhite) !important;
+  cursor: pointer;
+}
+
+.slider-img {
+  width: 10rem;
+  background: var(--colorwhite) !important;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slick-dots button:before {
+  color: var(--colorBlack) !important;
+}
+
+.slider-info p {
+  font-size: 0.9rem;
+}

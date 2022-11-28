@@ -1,0 +1,48 @@
+.tv-header {
+  display: grid;
+  place-content: center;
+  background: linear-gradient(to right, var(--colorBlue), var(--colorRed));
+  color: var(--colorWhite);
+  letter-spacing: 0.3rem;
+}
+
+.tvs {
+  background: var(--colorOffWhite);
+}
+
+.tv-title {
+  background: linear-gradient(to right, var(--colorBlue), var(--colorRed));
+  text-align: center;
+  width: 50% !important;
+  margin: 0.5rem auto;
+  color: var(--colorWhite);
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+    .tv-header {
+        letter-spacing: 0.1rem;
+        font-size: 0.8rem !important;
+      }
+    
+      .tv-title {
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+}
+
+@media only screen and (max-width: 576px) {
+  .tv-header {
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem !important;
+  }
+
+  .tv-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}

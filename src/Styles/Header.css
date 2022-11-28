@@ -1,0 +1,74 @@
+.navbar {
+  /* background: var(--colorBlue) !important; */
+  background: transparent;
+  width: 100%;
+  /* border-bottom: solid 3px var(--colorWhite); */
+}
+
+.logo {
+ font-size: 1.8rem;
+ color: var(--colorWhite);
+ font-family: 'Bebas Neue', cursive;
+}
+
+.logo sup {
+  font-size: 2rem;
+  color: var(--colorYellow);
+  font-weight: 600;
+}
+
+.search input {
+  padding: 0.3rem;
+  border: none;
+  outline: none;
+  background: none !important;
+  border-bottom: solid var(--colorYellow) 3px;
+  width: 12rem;
+  color: var(--colorWhite);
+}
+
+.search input::placeholder {
+  color: var(--colorWhite);
+  padding-left: 5px;
+  font-size: 0.8rem;
+}
+
+.LINK,
+.dropdown-style,
+.dropdown-menu a {
+  font-size: 1rem !important;
+  color: var(--colorWhite) !important;
+  margin: 0px 5px;
+}
+
+.LINK:hover {
+  color: var(--colorYellow) !important;
+}
+
+.toggle-icon {
+  color: var(--colorRed);
+  font-size: 2rem !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.dropdown-style {
+  background: none;
+  border: none;
+  color: var(--colorWhite);
+}
+
+.dropdown-style:hover {
+  color: var(--colorYellow) !important;
+}
+
+.dropdown-menu {
+  background: var(--colorYellow) !important;
+}
+
+.dropdown a:hover {
+  color: var(--colorBlue) !important;
+}

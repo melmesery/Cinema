@@ -1,0 +1,44 @@
+
+.media {
+    color: var(--colorWhite);
+    background: var(--colorWhite);
+}
+
+.media-img {
+    height: 75% !important;
+}
+
+/* .media-info  p{
+} */
+
+.media-btn {
+    background: var(--colorRed);
+    color: var(--colorWhite);
+    font-weight: 600;
+}
+
+.media-btn:hover {
+    transform: scale(1.1);
+}
+
+/* @media only screen and (max-width: 992px) {
+} */
+
+@media only screen and (max-width: 768px) {
+    .media-info p {
+        font-size: 0.7rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .tv-header {
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem !important;
+  }
+
+  .tv-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
