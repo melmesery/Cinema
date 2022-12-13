@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Cinema/static/css/main.15b3b34f.css",
+    "main.js": "/Cinema/static/js/main.c7d1f503.js",
+    "static/media/Horror-genre.jpg": "/Cinema/static/media/Horror-genre.00fb0a777910f3e072bd.jpg",
+    "static/media/Fantasy-genre.jpg": "/Cinema/static/media/Fantasy-genre.d0532534fc79a3835499.jpg",
+    "static/media/Mythology-genre.jpg": "/Cinema/static/media/Mythology-genre.c1489fa34d95c5306816.jpg",
+    "static/media/Drama-genre.jpg": "/Cinema/static/media/Drama-genre.1f2d9d26205ca6a10cb6.jpg",
+    "static/media/Devotional-genre.jpg": "/Cinema/static/media/Devotional-genre.4700913c73051a7480f5.jpg",
+    "static/media/Family-genre.jpg": "/Cinema/static/media/Family-genre.28e92ec64e333689b53f.jpg",
+    "static/media/Suspense-genre.jpg": "/Cinema/static/media/Suspense-genre.ccba5c04e0b21a2d4a75.jpg",
+    "static/media/Thriller-genre.jpg": "/Cinema/static/media/Thriller-genre.5db1f5304d95acbcb2e0.jpg",
+    "static/media/Comedy-genre.jpg": "/Cinema/static/media/Comedy-genre.6f49c6b4be5ac87992d1.jpg",
+    "static/media/Supernatural-genre.jpg": "/Cinema/static/media/Supernatural-genre.dc773caba0308c246d50.jpg",
+    "static/media/Crime-genre.jpg": "/Cinema/static/media/Crime-genre.55d5db3f98a578300794.jpg",
+    "static/media/chat.jpg": "/Cinema/static/media/chat.cde9c31bf36b049d780f.jpg",
+    "static/media/romantic.jpg": "/Cinema/static/media/romantic.d5d01c259583ade634d0.jpg",
+    "static/media/reality.jpg": "/Cinema/static/media/reality.2872d5a960b5907d1584.jpg",
+    "static/media/slick.svg": "/Cinema/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Cinema/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Cinema/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Cinema/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Cinema/index.html",
+    "main.15b3b34f.css.map": "/Cinema/static/css/main.15b3b34f.css.map",
+    "main.c7d1f503.js.map": "/Cinema/static/js/main.c7d1f503.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15b3b34f.css",
+    "static/js/main.c7d1f503.js"
+  ]
+}
