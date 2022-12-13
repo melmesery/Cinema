@@ -74,6 +74,7 @@ function Layout() {
   return (
     <>
       {/* <Header search={search} /> */}
+      <Header />
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route

@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
 import "../../src/Styles/Movies.css";
-import Header from "../Components/Header/Header";
 import GenersSlider from "../Components/UI/GenersSlider";
 import MainSlider from "../Components/UI/MainSlider";
 import SliderUI from "../Components/UI/SliderUI";
@@ -12,18 +11,53 @@ import SubscribeCards from "../Components/UI/SubscribeCards";
 import "../Styles/Home.css";
 
 function Home({ topMovies, topShows, newMovies, newShows, trends }) {
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 6,
+  // const settings = {
+  //   className: "center",
+  //   centerMode: true,
+  //   infinite: true,
+  //   centerPadding: "60px",
+  //   slidesToShow: 6,
+  //   speed: 500,
+  // };
+
+  var settings = {
+    className: "slick",
+    // dots: true,
+    infinite: false,
     speed: 500,
+    slidesToShow: 7,
+    slidesToScroll: 4,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <>
-    <Header />
       {/* hero Section */}
       <section className="hero">
         <Container className="text-center">
@@ -142,7 +176,9 @@ function Home({ topMovies, topShows, newMovies, newShows, trends }) {
         <Container>
           <Row className="justify-content-center">
             <h2 className="text-center mb-3 fw-bold">Select Your Plan</h2>
-            <p className="text-center mb-5">No hidden fees, equipment rentals, or installation appointments.</p>
+            <p className="text-center mb-5">
+              No hidden fees, equipment rentals, or installation appointments.
+            </p>
             <SubscribeCards />
           </Row>
         </Container>

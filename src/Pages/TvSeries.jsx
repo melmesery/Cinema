@@ -7,7 +7,7 @@ import "../Styles/TvSeries.css";
 function TvSeries({ newShows, topShows }) {
   return (
     <>
-      <section className="mt-5 py-3 tv-header ">
+      <section className="py-3 tv-header ">
         <h1 className="py-5">Watch The Most Popular TV Series</h1>
       </section>
 

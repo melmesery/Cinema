@@ -1,8 +1,7 @@
 .navbar {
-  /* background: var(--colorBlue) !important; */
-  background: transparent;
+  background: var(--colorBlack) !important;
+  /* background: transparent; */
   width: 100%;
-  /* border-bottom: solid 3px var(--colorWhite); */
 }
 
 .logo {

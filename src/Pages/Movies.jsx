@@ -3,9 +3,9 @@ import { Container, Row, Col, Card } from "reactstrap";
 import MoviesUI from "../Components/UI/MoviesUI";
 import Slider from "react-slick";
 import "../../src/Styles/Movies.css";
+import Header from "../Components/Header/Header";
 
-function Movies({topMovies}) {
-
+function Movies({ topMovies }) {
   var settings = {
     className: "slick",
     dots: true,
@@ -27,7 +27,7 @@ function Movies({topMovies}) {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 4,
           slidesToScroll: 2,
           initialSlide: 2,
         },
@@ -71,7 +71,7 @@ function Movies({topMovies}) {
 
       <section className="lists py-5">
         <Container>
-          <Card className="list p-4 rounded-0">
+          <Card className="list p-4 border-0 rounded-0">
             <Row className="d-flex align-items-center">
               <Col lg="6" className="ps-5">
                 <p className="lists-des">
@@ -102,21 +102,25 @@ function Movies({topMovies}) {
         <Container>
           <Card className="uhd p-4 rounded-5">
             <Row className="d-flex align-items-center">
-              <Col lg="6" className="ps-5">
+              <Col lg="6" sm='5' className="ps-5">
                 <p className="lists-des">
                   Browse 4K UHD Movies <br /> & organize your collection.
                 </p>
                 <button className="lists-btn px-5 py-1">Find a Movie</button>
               </Col>
-              <Col lg="6">
-                <Card className="hd-card text-center rounded-5 mb-0 p-3">4K UHD</Card>
+              <Col lg="6" sm='5'>
+                <Card className="hd-card text-center rounded-5 mb-0 p-3">
+                  4K UHD
+                </Card>
               </Col>
-              <p className="text-center mb-0 mt-3 fw-bold">4K UHD playback requires a 4K compitable device. For more info visit our Help Center.</p>
+              <p className="text-center mb-0 mt-3 fw-bold">
+                4K UHD playback requires a 4K compitable device. For more info
+                visit our Help Center.
+              </p>
             </Row>
           </Card>
         </Container>
       </section>
-
     </>
   );
 }

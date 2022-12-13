@@ -9,7 +9,7 @@ function Header({ search }) {
   };
 
   return (
-    <nav className="navbar navbar-expand-md fixed-top">
+    <nav className="navbar navbar-expand-md">
       <div className="container">
         <p className="logo mb-0 mt-2 me-4">
           WATCH<sup>+</sup>

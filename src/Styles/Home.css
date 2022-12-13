@@ -2,14 +2,7 @@
 
 .hero {
   min-height: 70vh;
-  /* background: linear-gradient(
-      to bottom right,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),
-    url(../assets/Images/hero.jpg) center/cover; */
-    background: linear-gradient(to right, var(--colorBlue), var(--colorRed));
-
+  background: linear-gradient(to right, var(--colorBlue), var(--colorRed));
   position: relative;
 }
 
@@ -38,7 +31,7 @@
 }
 
 .hero-btn:hover {
-  background: var(--colorYellow) !important;
+  background: rgba(255, 255, 255, 0.247) !important;
 }
 
 .hero-link:hover {
@@ -66,7 +59,6 @@
   transform: scale(1);
 }
 
-
 .movie-poster {
   position: relative;
   height: 28rem;
@@ -82,7 +74,6 @@
   background: rgba(104, 90, 175, 0.3);
   z-index: 1;
 }
-
 
 /* slider section */
 
@@ -180,7 +171,6 @@
   .email-form button span {
     font-size: 20px;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
