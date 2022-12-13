@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cinema/static/css/main.e7b47da0.css",
-    "main.js": "/Cinema/static/js/main.4336aa79.js",
+    "main.js": "/Cinema/static/js/main.f2ddd8dc.js",
     "static/media/Horror-genre.jpg": "/Cinema/static/media/Horror-genre.00fb0a777910f3e072bd.jpg",
     "static/media/Fantasy-genre.jpg": "/Cinema/static/media/Fantasy-genre.d0532534fc79a3835499.jpg",
     "static/media/Mythology-genre.jpg": "/Cinema/static/media/Mythology-genre.c1489fa34d95c5306816.jpg",
@@ -22,10 +22,10 @@
     "static/media/slick.woff": "/Cinema/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Cinema/index.html",
     "main.e7b47da0.css.map": "/Cinema/static/css/main.e7b47da0.css.map",
-    "main.4336aa79.js.map": "/Cinema/static/js/main.4336aa79.js.map"
+    "main.f2ddd8dc.js.map": "/Cinema/static/js/main.f2ddd8dc.js.map"
   },
   "entrypoints": [
     "static/css/main.e7b47da0.css",
-    "static/js/main.4336aa79.js"
+    "static/js/main.f2ddd8dc.js"
   ]
 }
